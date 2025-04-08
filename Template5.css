@@ -1,0 +1,124 @@
+.img-menu{
+  background-image: url('images/wedding_couple.jpg');
+  min-height:700px;
+  background-size: cover;
+background-position: center;
+filter: grayscale(50%);
+position: relative;
+vertical-align: middle;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#text-center{
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    color: white;
+    position: absolute;
+    letter-spacing: 4px;
+}
+#text-center h1{
+    font-size: 55px;
+}
+.content{
+ filter: grayscale(50%);
+ background-color: #ffdddd;
+}
+.content-janejohn{
+ width: 980px;
+margin-left: auto;
+ margin-right: auto;
+ padding: 32px 16px;
+
+}
+.content-janejohn img{
+    border-radius: 4px;
+    vertical-align: middle;
+   
+}
+.content-janejohn a{
+    text-decoration: none;
+   padding: 16px;
+   background-color: black;
+   color: white;
+   margin: 32px 0;
+}
+.img-invited{
+    background-image: url('images/flowers.jpg');
+    min-height: 600px;
+    background-size: cover;
+  background-position: center;
+  position: relative;
+  filter: grayscale(0)!important;
+}
+.row{
+    padding: 64px 0;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.col{
+    width: 50%;
+    padding: 0 8px;
+    float: left;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    overflow: hidden;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: inline-block;
+    
+}
+nav a:hover{
+    background-color: #ccc;
+}
+nav li{
+    float:left;
+    width: 25%;
+    text-align: center;
+    padding: 8px 16px;
+    
+}
+nav{
+    z-index: 1;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    opacity: 0.7;
+}
+
+html, body {
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+
+}
+h1,h2{
+    font-family: "Raleway", sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    margin: 10px 0;
+}
+@media screen and (max-width:601px){
+    .col{
+        width: 100%;
+    }
+    nav{
+        display: none;
+    }
+}
