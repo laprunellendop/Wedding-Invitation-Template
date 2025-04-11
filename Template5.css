@@ -1,16 +1,11 @@
 .img-menu{
-  background-image: url('images/wedding_couple.jpg');
-  min-height:700px;
-  background-size: cover;
-background-position: center;
-filter: grayscale(50%);
-position: relative;
-vertical-align: middle;
-}
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    background-image: url('images/wedding_couple.jpg');
+    min-height:700px;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(50%);
+    position: relative;
+    vertical-align: middle;
 }
 #text-center{
     transform: translate(-50%, -50%);
@@ -24,41 +19,48 @@ vertical-align: middle;
 #text-center h1{
     font-size: 55px;
 }
+/*contenu*/
 .content{
- filter: grayscale(50%);
- background-color: #ffdddd;
+    
+    background-color: #ffdddd;
+    filter: grayscale(50%);
 }
 .content-janejohn{
- max-width: 1000px;
-margin-left: auto;
- margin-right: auto;
- padding: 32px 16px;
-
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 32px 16px;
+    
 }
 .content-janejohn img{
-
     padding:16px 0;
+    border-radius: 4px;
 }
 .content-janejohn a{
     text-decoration: none;
-   padding: 16px;
-   background-color: black;
-   color: white;
-   margin: 32px 0;
+    padding: 16px;
+    background-color: black;
+    color: white;
+    margin: 32px 0;
 }
 .content-janejohn h1{
-    text-align: center; color:#757575; padding:24px 0; font-size: 36px;
+    text-align: center;
+    color:#757575; 
+    padding:24px 0; 
+    font-size: 36px;
 }
 .content-janejohn p{
-    padding: 16px 0; line-height: 2; font-size: 16px;
+    padding: 16px 0; 
+    line-height: 2; 
+    font-size: 16px;
 }
 .img-invited{
     background-image: url('images/flowers.jpg');
     min-height: 600px;
     background-size: cover;
-  background-position: center;
-  position: relative;
-  filter: grayscale(0)!important;
+    background-position: center;
+    position: relative;
+    filter: grayscale(0);
 }
 .row{
     padding: 64px 0;
@@ -99,16 +101,14 @@ margin-left: auto;
 .top a:hover{
     background-color: #ccc;
 }
-.rsvp-content{
-   
+.rsvp-content{ 
     text-align: center; background-color: #ffdddd!important;
     padding: 80px 0;
     line-height: 1.5;
     letter-spacing: 4px; 
 }
 .rsvp-content p{
-    padding: 24px;
-    
+    padding: 24px;  
 }
 .rsvp-content a{
     padding: 16px 56px;
@@ -118,12 +118,10 @@ margin-left: auto;
     color:white;
     font-size: 22px;
     border-radius: 4px;
-
 }
 .rsvp-content a:hover{
-    
-background-color: #ccc;
-color: black;
+    background-color: #ccc;
+    color: black;
 }
 .rsvp-content h1{
     font-size:34px;
@@ -139,26 +137,30 @@ footer p{
     margin-bottom: 32px;
 }
 footer a{
-   color: white;
+    color: white;
 }
 footer a:hover{
     color: green;
- }
+}
+/*page global*/
 html,body {
     font-family: Verdana, sans-serif;
     font-size: 15px;
     line-height: 1.5;
-
 }
 h1, h2 {
     font-family: "Raleway", sans-serif;
     font-size: 20px;
 }
-
 h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
     margin: 10px 0;
     font-family: "Raleway", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 @media screen and (max-width:601px){
     .col{
